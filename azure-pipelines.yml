@@ -1,0 +1,6 @@
+jobs:
+ -job: Linux
+  pool:
+   name: 'Default'
+  steps:
+  - task: CmdLine@2
